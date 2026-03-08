@@ -27,15 +27,15 @@ endif ()
 ##  Check if this is the top level
 if (PROJECT_IS_TOP_LEVEL)
   ##  Enable verbose and debugging messages
-  set (Boost_VERBOSE NO)
-  set (Boost_DEBUG NO)
+  set (Boost_VERBOSE YES)
+  set (Boost_DEBUG YES)
 
   ##  Set the minimum version and the required components
   set (BOOST_MIN_VERSION 1.85.0)
   set (BOOST_REQUIRED_COMPONENTS program_options filesystem headers)
 
   ##  Locate Boost using the Boost-provided `BoostConfig.cmake`
-  find_package (Boost ${BOOST_MIN_VERSION} COMPONENTS ${BOOST_REQUIRED_COMPONENTS})
+#  find_package (Boost ${BOOST_MIN_VERSION} REQUIRED COMPONENTS ${BOOST_REQUIRED_COMPONENTS})
 
   ##  If it is not found, then install and compile Boost
   if (NOT Boost_FOUND)
