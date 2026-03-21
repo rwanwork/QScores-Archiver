@@ -296,7 +296,7 @@ Copyright and License
 ---------------------
 
      QScores-Archiver (Quality scores archiver)
-     Copyright (C) 2011-2015, 2024-2025 by Raymond Wan
+     Copyright (C) 2011-2015, 2024-2026 by Raymond Wan
 
 QScores-Archiver is distributed under the terms of the GNU Lesser General Public License (LGPL, version 3 or later) -- see the file COPYING and COPYING.LESSER for details.
 
@@ -308,7 +308,7 @@ Please see the `doc/` directory for license and documentation.
 About This Repository
 ---------------------
 
-This GitHub repository was created from the original tarball on my homepage many years ago.  Initially, it was identical to the version described in the paper.  Hopefully, it will be easier for me to maintain in GitHub.
+This GitHub repository was created from the original tarball on my homepage at the University of Tokyo many years ago ([http://www.cb.k.u-tokyo.ac.jp/asailab/members/rwan](http://www.cb.k.u-tokyo.ac.jp/asailab/members/rwan)).  That version was identical to the version described in the paper, but since then, it has been gradually updated for more recent C++ compilers.  Hopefully, it will be easier for me to maintain in GitHub.
 
 
     Raymond Wan
